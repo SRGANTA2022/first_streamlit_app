@@ -1,1 +1,2 @@
-created a new python file
+import steamlit
+streamlit.title('my parents new healthy diner')
