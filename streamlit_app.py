@@ -63,7 +63,7 @@ streamlit.header('Fruityvice Fruit Advice ')
 
 
 #new Allow the end user to add the fruit to the list
-Def insert_row_snowflake(new_fruit);
+Def insert_row_snowflake(new_fruit):
     with my_cnx.cursor() as my_cur:
     my_cur.execute("insert into fruit_load_list values ('from streamlit')")
     return('Thanks for adding', new_fruit)
